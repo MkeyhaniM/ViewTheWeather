@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show your location and weather information</title>
+    <link rel="stylesheet" href="assets/style/apiLocWea.css">
+    <link rel="stylesheet" href="assets/dist/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="container">
+        <h3 class="display-3 lead py-5 text-center">Show your location and weather information</h3>
+        <div class="row">
+            <div class="col-xl-4 ">
+                <h3 id="getLocation" class="display-4 pt-5 lead text-center"></h3>
+            </div>
+            <div class="col-xl-4 pt-5">
+                <h3 class="display-3 lead text-center" id="deg" ><b id="typeOfDegree">F</b> <span id="degree"></span></h3>
+                <div id="alert" class="alert alert-primary lead text-center" role="alert">
+                    Click to see other grades <a href="#" class="alert-link">click On the F</a> .
+                </div>
+            </div>
+            <div class="col-xl-4 lead text-center ">
+                <div id="parentImg"></div>
+                <span class="h4" id="typeWeather"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--<div class="spinner-border text-dark" role="status">-->
+<!--    <span class="visually-hidden">Loading...</span>-->
+<!--</div>-->
+
+
+<script src="assets/dist/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--<script src="assets/dist/node_modules/popper.min.js"></script>-->
+<script src="assets/dist/js/ApiWeather.js"></script>
+</body>
+</html>
