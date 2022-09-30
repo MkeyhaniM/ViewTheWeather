@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.container-fluid {
+    height: 100vh;
+    background:linear-gradient(rgba(32, 244, 124, 0.92), rgba(58, 175, 229, 0.92)) ;
+}
+
+#deg:hover {
+    cursor: pointer;
+}
